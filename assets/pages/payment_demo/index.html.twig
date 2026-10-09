@@ -1,0 +1,32 @@
+{%- extends '@front/layouts/private/layout.html.twig' -%}
+
+{%- set page_show_title = true -%}
+
+{%- block page_title_actions -%}
+    {{ button_link('ph:bold/receipt', '@page::mine' | trans, path('payments_index')) }}
+    {{ button_link('ph:bold/bank', '@page::admin' | trans, path('payments_admin_index')) }}
+{%- endblock -%}
+
+{%- block page_body -%}
+    <p class="lead">{{ '@page::intro' | trans }}</p>
+
+    <h2>{{ '@page::catalogue.title' | trans }}</h2>
+    <div class="grid grid--3">
+        {%- for item in items -%}
+            <a class="block block--padded block--link" href="{{ path('payments_pay', { payableType: item.payableType, payableId: item.id }) }}">
+                <span class="block--link-icon">{{ icon(item.icon) }}</span>
+                <span class="block--link-title">{{ item.name }}</span>
+                <span class="block--link-description">{{ item.amount|price(item.payableCurrencyCode, app.request.locale) }}</span>
+            </a>
+        {%- endfor -%}
+    </div>
+
+    <h2>{{ '@page::cases.title' | trans }}</h2>
+    {{ component(render_pass, '@WexampleSymfonyDesignSystemBundle/components/timeline', {}, { items: [
+        { title: '@page::cases.paid.title' | trans, text: '@page::cases.paid.text' | trans, icon: 'ph:bold/check-circle', tone: 'success' },
+        { title: '@page::cases.declined.title' | trans, text: '@page::cases.declined.text' | trans, icon: 'ph:bold/x-circle', tone: 'error' },
+        { title: '@page::cases.canceled.title' | trans, text: '@page::cases.canceled.text' | trans, icon: 'ph:bold/prohibit' },
+        { title: '@page::cases.manual.title' | trans, text: '@page::cases.manual.text' | trans, icon: 'ph:bold/bank' },
+        { title: '@page::cases.refund.title' | trans, text: '@page::cases.refund.text' | trans, icon: 'ph:bold/arrow-u-up-left' },
+    ] }) }}
+{%- endblock -%}

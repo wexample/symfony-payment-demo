@@ -1,0 +1,29 @@
+en:
+  page_title: Payment
+  page_icon: ph:bold/credit-card
+  mine: My payments
+  admin: All payments
+  intro: >-
+    Buy something from the catalogue below: symfony-payment-ds asks how to
+    pay, then sends you to a provider — pretended here — or tells you how to
+    pay by hand, and waits for the outcome. Signed in as demo-admin, the
+    administration of every payment is yours too.
+  catalogue:
+    title: The catalogue
+  cases:
+    title: What to try
+    paid:
+      title: A payment that goes through
+      text: Pay by card, then « Pay » on the provider's page.
+    declined:
+      title: A card declined
+      text: « Decline » on the provider's page; the payment can be tried again.
+    canceled:
+      title: A payment given up
+      text: « Cancel » on the provider's page.
+    manual:
+      title: A transfer, confirmed by hand
+      text: Pay by bank transfer; then, as demo-admin, mark it received in the administration.
+    refund:
+      title: A refund
+      text: As demo-admin, refund a paid payment, in whole or in part, from its page in the administration.

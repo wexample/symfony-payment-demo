@@ -1,0 +1,13 @@
+en:
+  page_title: Demo provider
+  page_icon: ph:bold/storefront
+  notice:
+    title: A provider pretended
+    body: This page stands for a provider's own — a card form, a bank's page. Choose what the payer does; the application is told as a real provider's webhook would tell it.
+  amount: To pay
+  reference: Provider's reference
+  status: Status at the provider
+  outcome:
+    pay: Pay
+    decline: Decline the card
+    cancel: Cancel and go back

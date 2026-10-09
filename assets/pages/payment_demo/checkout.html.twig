@@ -1,0 +1,35 @@
+{%- extends '@front/layouts/private/layout.html.twig' -%}
+
+{%- set page_show_title = true -%}
+
+{#- The page a provider would show: what is asked, and what the payer does. -#}
+{%- block page_body -%}
+    {{ message_info('@page::notice.title' | trans, '@page::notice.body' | trans) }}
+
+    <section class="block block--card">
+        <div class="block--title">
+            <span class="block--title-leading">{{ icon('ph:bold/credit-card') }}</span>
+            <span class="block--title-label">{{ '@page::amount' | trans }}</span>
+            <span class="block--title-trailing">{{ payment.amount|price(payment.currencyCode, app.request.locale) }}</span>
+        </div>
+        <div class="block--body">
+            {{ properties([
+                { key: '@page::reference' | trans, value: reference, break: true },
+                { key: '@page::status' | trans, value: payment.status.value },
+            ]) }}
+        </div>
+        <div class="block--footer cluster">
+            {%- set outcome_buttons = {
+                pay: { icon: 'ph:bold/check', class: 'button--invert' },
+                decline: { icon: 'ph:bold/x', class: '' },
+                cancel: { icon: 'ph:bold/arrow-left', class: 'button--flat' },
+            } -%}
+            {%- for outcome in outcomes -%}
+                <form method="post" action="{{ path('payment_demo_outcome', { reference: reference, outcome: outcome }) }}">
+                    <input type="hidden" name="_token" value="{{ csrf_token(csrf_token_id) }}">
+                    {{ button(outcome_buttons[outcome].icon, ('@page::outcome.' ~ outcome) | trans, { type: 'submit', class: outcome_buttons[outcome].class }) }}
+                </form>
+            {%- endfor -%}
+        </div>
+    </section>
+{%- endblock -%}
