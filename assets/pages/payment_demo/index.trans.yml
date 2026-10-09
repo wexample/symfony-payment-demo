@@ -14,7 +14,7 @@ en:
     title: What to try
     paid:
       title: A payment that goes through
-      text: Pay by card, then « Pay » on the provider's page.
+      text: Pay with the demo provider's card, then « Pay » on its page — or with a card through Stripe, test mode, with 4242 4242 4242 4242.
     declined:
       title: A card declined
       text: « Decline » on the provider's page; the payment can be tried again.

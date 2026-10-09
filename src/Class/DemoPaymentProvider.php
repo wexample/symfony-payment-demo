@@ -23,6 +23,8 @@ class DemoPaymentProvider implements PaymentGatewayInterface
 {
     final public const string NAME = 'demo';
 
+    final public const string METHOD = 'demo_card';
+
     private const string CACHE_KEY = 'payment_demo.provider';
 
     private const string CACHE_KEY_RETURN = 'payment_demo.return.';
@@ -39,9 +41,12 @@ class DemoPaymentProvider implements PaymentGatewayInterface
         return self::NAME;
     }
 
+    /**
+     * Its own method, so that a real provider — Stripe — may take the card.
+     */
     public function supports(string $method): bool
     {
-        return 'card' === $method;
+        return self::METHOD === $method;
     }
 
     public function initiate(PaymentRequest $request): PaymentInitiation
@@ -111,7 +116,7 @@ class DemoPaymentProvider implements PaymentGatewayInterface
     private function call(callable $call): mixed
     {
         $item = $this->cache->getItem(self::CACHE_KEY);
-        $fake = $item->isHit() ? $item->get() : new FakePaymentProvider(self::NAME, ['card']);
+        $fake = $item->isHit() ? $item->get() : new FakePaymentProvider(self::NAME, [self::METHOD]);
         $result = $call($fake);
         $this->cache->save($item->set($fake));
 
