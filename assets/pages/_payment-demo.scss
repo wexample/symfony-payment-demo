@@ -1,0 +1,11 @@
+// What the demo's pages are laid with: the catalogue as cards to pick, the
+// cases to try on a timeline, and the pretended provider's card — what is
+// asked, its fields, its buttons.
+@use '@wexample/symfony-design-system/css/shapes/block';
+@use '@wexample/symfony-design-system/css/shapes/lead';
+@use '@wexample/symfony-design-system/css/shapes/grid';
+@use '@wexample/symfony-design-system/css/shapes/cluster';
+@use '@wexample/symfony-design-system/css/shapes/timeline';
+@use '@wexample/symfony-design-system/components/button/button';
+@use '@wexample/symfony-design-system/components/message/message';
+@use '@wexample/symfony-design-system/components/properties/properties';
