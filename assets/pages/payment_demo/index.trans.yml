@@ -24,6 +24,9 @@ en:
     manual:
       title: A transfer, confirmed by hand
       text: Pay by bank transfer; then, as demo-admin, mark it received in the administration.
+    waiting:
+      title: A payment left waiting
+      text: « Go back without deciding » on the provider's page; the return page waits for the provider's answer, and shows it as soon as it comes.
     refund:
       title: A refund
       text: As demo-admin, refund a paid payment, in whole or in part, from its page in the administration.

@@ -16,9 +16,9 @@ use Wexample\SymfonyPaymentDemo\Traits\SymfonyPaymentDemoBundleClassTrait;
 
 /**
  * Something bought, through symfony-payment-ds's pages, from a catalogue of
- * the demo's own; then, on the page of a provider pretended, paid, declined
- * or given up — what a real provider's page would let the payer do, and
- * its webhook tell the application.
+ * the demo's own; then, on the page of a provider pretended, paid, declined,
+ * given up or left undecided — what a real provider's page would let the
+ * payer do, and its webhook tell the application.
  */
 #[Route(path: '/payment-demo/', name: 'payment_demo_')]
 final class PaymentDemoController extends AbstractPagesController
@@ -33,7 +33,7 @@ final class PaymentDemoController extends AbstractPagesController
 
     final public const string CSRF_TOKEN_ID = 'payment-demo-checkout';
 
-    final public const array OUTCOMES = ['pay', 'decline', 'cancel'];
+    final public const array OUTCOMES = ['pay', 'decline', 'cancel', 'later'];
 
     #[Route(path: '', name: self::ROUTE_INDEX)]
     public function index(DemoItemResolver $items): Response
@@ -76,6 +76,9 @@ final class PaymentDemoController extends AbstractPagesController
             'pay' => $payments->handleNotification($provider->succeed($reference)),
             'decline' => $payments->handleNotification($provider->fail($reference)),
             'cancel' => ($payment = $repository->findOneByProviderReference($reference)) ? $payments->cancel($payment) : null,
+            // Back to the shop with nothing decided, as a payer leaving the
+            // provider's page: the return page waits for the outcome.
+            'later' => null,
         };
 
         return $this->redirect($provider->getReturnUrl($reference) ?? $this->generateUrl('payments_index'));

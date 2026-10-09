@@ -23,6 +23,7 @@
                 pay: { icon: 'ph:bold/check', class: 'button--invert' },
                 decline: { icon: 'ph:bold/x', class: '' },
                 cancel: { icon: 'ph:bold/arrow-left', class: 'button--flat' },
+                later: { icon: 'ph:bold/clock', class: 'button--flat' },
             } -%}
             {%- for outcome in outcomes -%}
                 <form method="post" action="{{ path('payment_demo_outcome', { reference: reference, outcome: outcome }) }}">
