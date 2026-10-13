@@ -2,8 +2,8 @@
 
 namespace Wexample\SymfonyPaymentDemo\Traits;
 
-use Wexample\SymfonyPaymentDemo\WexampleSymfonyPaymentDemoBundle;
 use Wexample\SymfonyHelpers\Traits\BundleClassTrait;
+use Wexample\SymfonyPaymentDemo\WexampleSymfonyPaymentDemoBundle;
 
 trait SymfonyPaymentDemoBundleClassTrait
 {
