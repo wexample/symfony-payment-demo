@@ -1,6 +1,6 @@
 # symfony-payment-demo
 
-Version: 2.0.0
+Version: 2.0.1
 
 A demo of symfony-payment-ds: an item bought, a provider pretended, every case of a payment played
 
@@ -28,7 +28,7 @@ Visit the [Wexample Suite documentation](https://docs.wexample.com) for the comp
 - php: >=8.5
 - wexample/symfony-helpers: >=16.0.0
 - wexample/symfony-loader: >=23.0.0
-- wexample/symfony-design-system: >=34.0.0
+- wexample/symfony-design-system: >=35.0.0
 - wexample/symfony-payment: >=4.0.0
 - wexample/symfony-payment-ds: >=2.0.0
 - wexample/symfony-remote-payment: >=3.0.0
