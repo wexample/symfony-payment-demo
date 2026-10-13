@@ -1,6 +1,6 @@
 # symfony-payment-demo
 
-Version: 2.0.1
+Version: 2.0.2
 
 A demo of symfony-payment-ds: an item bought, a provider pretended, every case of a payment played
 
