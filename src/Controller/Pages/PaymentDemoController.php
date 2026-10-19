@@ -2,6 +2,7 @@
 
 namespace Wexample\SymfonyPaymentDemo\Controller\Pages;
 
+use InvalidArgumentException;
 use Symfony\Component\HttpFoundation\RedirectResponse;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
@@ -10,6 +11,7 @@ use Wexample\SymfonyHelpers\Helper\VariableHelper;
 use Wexample\SymfonyLoader\Controller\AbstractPagesController;
 use Wexample\SymfonyPayment\Repository\PaymentRepository;
 use Wexample\SymfonyPayment\Service\PaymentService;
+use Wexample\SymfonyRemotePayment\Class\ProviderPayment;
 use Wexample\SymfonyPaymentDemo\Class\DemoPaymentProvider;
 use Wexample\SymfonyPaymentDemo\Payable\DemoItemResolver;
 use Wexample\SymfonyPaymentDemo\Traits\SymfonyPaymentDemoBundleClassTrait;
@@ -48,7 +50,7 @@ final class PaymentDemoController extends AbstractPagesController
         string $reference,
         DemoPaymentProvider $provider,
     ): Response {
-        $payment = $provider->fetch($reference);
+        $payment = $this->fetch($provider, $reference);
 
         return $this->renderPage(self::ROUTE_CHECKOUT, [
             'reference' => $reference,
@@ -72,6 +74,8 @@ final class PaymentDemoController extends AbstractPagesController
             throw $this->createNotFoundException();
         }
 
+        $this->fetch($provider, $reference);
+
         match ($outcome) {
             'pay' => $payments->handleNotification($provider->succeed($reference)),
             'decline' => $payments->handleNotification($provider->fail($reference)),
@@ -82,5 +86,18 @@ final class PaymentDemoController extends AbstractPagesController
         };
 
         return $this->redirect($provider->getReturnUrl($reference) ?? $this->generateUrl('payments_index'));
+    }
+
+    /**
+     * The payment the demo provider holds under this reference; none is a
+     * page that does not exist, not a failure.
+     */
+    private function fetch(DemoPaymentProvider $provider, string $reference): ProviderPayment
+    {
+        try {
+            return $provider->fetch($reference);
+        } catch (InvalidArgumentException) {
+            throw $this->createNotFoundException(sprintf('No demo payment under "%s".', $reference));
+        }
     }
 }
