@@ -12,3 +12,48 @@ en:
     decline: Decline the card
     cancel: Cancel and go back
     later: Go back without deciding
+
+fr:
+  page_title: 'Fournisseur de démonstration'
+  page_icon: 'ph:bold/storefront'
+  notice:
+    title: 'Un fournisseur a prétendu'
+    body: "Cette page représente celle d'un fournisseur — un formulaire de carte, une page de banque. Choisissez ce que fait le payeur ; l'application est informée comme le ferait un webhook d'un véritable fournisseur."
+  amount: 'À payer'
+  reference: 'Référence du fournisseur'
+  status: 'Statut chez le fournisseur'
+  outcome:
+    pay: Payer
+    decline: 'Refuser la carte'
+    cancel: 'Annuler et revenir en arrière'
+    later: 'Revenir sans décider'
+
+zh:
+  page_title: 演示提供者
+  page_icon: 'ph:bold/storefront'
+  notice:
+    title: 提供者伪装
+    body: '此页面代表一个提供者的自有页面——一个卡片表单，一个银行页面。选择付款方的操作；应用程序将像真实提供者的 webhook 一样告知。'
+  amount: 支付金额
+  reference: 提供者的参考
+  status: 提供者的状态
+  outcome:
+    pay: 支付
+    decline: 拒绝卡片
+    cancel: 取消并返回
+    later: 返回但不作决定
+
+ar:
+  page_title: 'مقدمة العرض'
+  page_icon: 'ph:bold/storefront'
+  notice:
+    title: 'مقدم الخدمة تظاهر'
+    body: 'تمثل هذه الصفحة خاصية مقدم الخدمة - نموذج بطاقة، صفحة بنك. اختر ما يفعله الدافع؛ يتم إخبار التطبيق كما لو كان عبر واجهة برمجة التطبيقات لمقدم الخدمة.'
+  amount: للدفع
+  reference: 'مرجع مقدم الخدمة'
+  status: 'الحالة عند مقدم الخدمة'
+  outcome:
+    pay: ادفع
+    decline: 'رفض البطاقة'
+    cancel: 'إلغاء والعودة'
+    later: 'العودة دون اتخاذ قرار'

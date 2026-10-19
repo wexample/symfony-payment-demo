@@ -30,3 +30,90 @@ en:
     refund:
       title: A refund
       text: As demo-admin, refund a paid payment, in whole or in part, from its page in the administration.
+
+fr:
+  page_title: Paiement
+  page_icon: 'ph:bold/credit-card'
+  mine: 'Mes paiements'
+  admin: 'Tous les paiements'
+  intro: "Achetez quelque chose dans le catalogue ci-dessous : symfony-payment-ds demande comment payer, puis vous envoie vers un fournisseur — simulé ici — ou vous indique comment payer manuellement, et attend le résultat. Connecté en tant que demo-admin, l'administration de chaque paiement vous appartient également."
+  catalogue:
+    title: 'Le catalogue'
+  cases:
+    title: 'Que tester'
+    paid:
+      title: 'Un paiement réussi'
+      text: 'Payez avec la carte du fournisseur de démonstration, puis cliquez sur « Payer » sur sa page — ou avec une carte via Stripe, en mode test, avec 4242 4242 4242 4242.'
+    declined:
+      title: 'Une carte refusée'
+      text: 'Cliquez sur « Refuser » sur la page du fournisseur ; le paiement peut être réessayé.'
+    canceled:
+      title: 'Un paiement abandonné'
+      text: 'Cliquez sur « Annuler » sur la page du fournisseur.'
+    manual:
+      title: 'Un virement, confirmé manuellement'
+      text: "Payez par virement bancaire ; ensuite, en tant que demo-admin, marquez-le comme reçu dans l'administration."
+    waiting:
+      title: 'Un paiement en attente'
+      text: "Cliquez sur « Retour sans décider » sur la page du fournisseur ; la page de retour attend la réponse du fournisseur et l'affiche dès qu'elle arrive."
+    refund:
+      title: 'Un remboursement'
+      text: "En tant que demo-admin, remboursez un paiement effectué, en totalité ou en partie, depuis sa page dans l'administration."
+
+zh:
+  page_title: 支付
+  page_icon: 'ph:bold/credit-card'
+  mine: 我的支付
+  admin: 所有支付
+  intro: '从下面的目录购买商品：symfony-payment-ds 会询问如何支付，然后将您引导到一个提供商——这里假装是——或者告诉您如何手动支付，并等待结果。以 demo-admin 身份登录，您也可以管理每一笔支付。'
+  catalogue:
+    title: 目录
+  cases:
+    title: 尝试什么
+    paid:
+      title: 成功的支付
+      text: '使用演示提供商的卡支付，然后在其页面上点击 « 支付 » — 或通过 Stripe 的测试模式使用卡，卡号为 4242 4242 4242 4242。'
+    declined:
+      title: 卡被拒绝
+      text: '在提供商页面上点击 « 拒绝 »；可以再次尝试支付。'
+    canceled:
+      title: 放弃的支付
+      text: '在提供商页面上点击 « 取消 »。'
+    manual:
+      title: 手动确认的转账
+      text: '通过银行转账支付；然后作为 demo-admin，在管理界面中标记为已收到。'
+    waiting:
+      title: 等待中的支付
+      text: '在提供商页面上点击 « 返回未决定 »；返回页面等待提供商的回复，并在收到后立即显示。'
+    refund:
+      title: 退款
+      text: '作为 demo-admin，从管理页面全额或部分退款已支付的款项。'
+
+ar:
+  page_title: الدفع
+  page_icon: 'ph:bold/credit-card'
+  mine: مدفوعاتي
+  admin: 'جميع المدفوعات'
+  intro: 'اشتري شيئًا من الكتالوج أدناه: يطلب symfony-payment-ds كيفية الدفع، ثم يرسلك إلى مزود — يتم التظاهر هنا — أو يخبرك بكيفية الدفع يدويًا، وينتظر النتيجة. تم تسجيل الدخول كـ demo-admin، إدارة كل دفعة هي أيضًا مسؤوليتك.'
+  catalogue:
+    title: الكتالوج
+  cases:
+    title: 'ما الذي يجب تجربته'
+    paid:
+      title: 'دفعة تمت الموافقة عليها'
+      text: 'ادفع باستخدام بطاقة المزود التجريبي، ثم « ادفع » في صفحته — أو باستخدام بطاقة عبر Stripe، وضع الاختبار، مع 4242 4242 4242 4242.'
+    declined:
+      title: 'تم رفض البطاقة'
+      text: '« رفض » في صفحة المزود؛ يمكن إعادة محاولة الدفع.'
+    canceled:
+      title: 'دفعة تم التخلي عنها'
+      text: '« إلغاء » في صفحة المزود.'
+    manual:
+      title: 'تحويل، تم تأكيده يدويًا'
+      text: 'ادفع عن طريق التحويل البنكي؛ ثم، كـ demo-admin، قم بتحديده كمدفوع في الإدارة.'
+    waiting:
+      title: 'دفعة متروكة في الانتظار'
+      text: '« العودة بدون قرار » في صفحة المزود؛ صفحة العودة تنتظر إجابة المزود، وتظهرها بمجرد وصولها.'
+    refund:
+      title: استرداد
+      text: 'كـ demo-admin، استرد دفعة مدفوعة، كليًا أو جزئيًا، من صفحتها في الإدارة.'
