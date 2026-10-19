@@ -117,3 +117,554 @@ ar:
     refund:
       title: استرداد
       text: 'كـ demo-admin، استرد دفعة مدفوعة، كليًا أو جزئيًا، من صفحتها في الإدارة.'
+
+hi:
+  page_title: भुगतान
+  page_icon: 'ph:bold/credit-card'
+  mine: 'मेरे भुगतान'
+  admin: 'सभी भुगतान'
+  intro: 'नीचे दिए गए कैटलॉग से कुछ खरीदें: symfony-payment-ds पूछता है कि कैसे भुगतान करें, फिर आपको एक प्रदाता — यहाँ परिकल्पित — पर भेजता है या आपको हाथ से भुगतान करने का तरीका बताता है, और परिणाम की प्रतीक्षा करता है। डेमो-एडमिन के रूप में साइन इन किया गया, हर भुगतान का प्रशासन आपका भी है।'
+  catalogue:
+    title: कैटलॉग
+  cases:
+    title: 'क्या आजमाएँ'
+    paid:
+      title: 'एक सफल भुगतान'
+      text: 'डेमो प्रदाता के कार्ड से भुगतान करें, फिर इसके पृष्ठ पर « भुगतान करें » — या स्ट्राइप के माध्यम से, टेस्ट मोड में, 4242 4242 4242 4242 के साथ।'
+    declined:
+      title: 'एक अस्वीकृत कार्ड'
+      text: 'प्रदाता के पृष्ठ पर « अस्वीकृत करें »; भुगतान को फिर से आजमाया जा सकता है।'
+    canceled:
+      title: 'एक भुगतान जो रद्द किया गया'
+      text: 'प्रदाता के पृष्ठ पर « रद्द करें »।'
+    manual:
+      title: 'एक हस्ताक्षरित ट्रांसफर'
+      text: 'बैंक ट्रांसफर द्वारा भुगतान करें; फिर, डेमो-एडमिन के रूप में, इसे प्रशासन में प्राप्त के रूप में चिह्नित करें।'
+    waiting:
+      title: 'एक भुगतान जो प्रतीक्षा में है'
+      text: 'प्रदाता के पृष्ठ पर « बिना निर्णय लिए वापस जाएँ »; लौटने का पृष्ठ प्रदाता के उत्तर की प्रतीक्षा करता है, और जैसे ही यह आता है, इसे दिखाता है।'
+    refund:
+      title: 'एक रिफंड'
+      text: 'डेमो-एडमिन के रूप में, प्रशासन में उसके पृष्ठ से एक भुगतान किए गए भुगतान को पूरी तरह या आंशिक रूप से रिफंड करें।'
+
+he:
+  page_title: תשלום
+  page_icon: 'ph:bold/credit-card'
+  mine: 'התשלומים שלי'
+  admin: 'כל התשלומים'
+  intro: 'קנה משהו מהקטלוג למטה: symfony-payment-ds שואל איך לשלם, ואז שולח אותך לספק — כאן זה מתבצע — או אומר לך איך לשלם ידנית, וממתין לתוצאה. מחובר כמנהל-דמו, ניהול כל תשלום הוא גם שלך.'
+  catalogue:
+    title: הקטלוג
+  cases:
+    title: 'מה לנסות'
+    paid:
+      title: 'תשלום שעבר'
+      text: 'שלם באמצעות כרטיס הספק הדמו, ואז לחץ על « שלם » בדף שלו — או באמצעות כרטיס דרך Stripe, במצב בדיקה, עם 4242 4242 4242 4242.'
+    declined:
+      title: 'כרטיס נדחה'
+      text: '« דחה » בדף הספק; ניתן לנסות את התשלום שוב.'
+    canceled:
+      title: 'תשלום שננטש'
+      text: '« בטל » בדף הספק.'
+    manual:
+      title: 'העברה, מאושרת ידנית'
+      text: 'שלם באמצעות העברה בנקאית; ואז, כמנהל-דמו, סמן את זה כנקלט בניהול.'
+    waiting:
+      title: 'תשלום שנותר ממתין'
+      text: '« חזור בלי להחליט » בדף הספק; דף החזרה ממתין לתשובת הספק, ומראה אותה ברגע שהיא מגיעה.'
+    refund:
+      title: 'החזר כספי'
+      text: 'כמנהל-דמו, החזר תשלום ששולם, במלואו או בחלקו, מהדף שלו בניהול.'
+
+fa:
+  page_title: پرداخت
+  page_icon: 'ph:bold/credit-card'
+  mine: 'پرداخت‌های من'
+  admin: 'تمام پرداخت‌ها'
+  intro: 'چیزی از کاتالوگ زیر خریداری کنید: symfony-payment-ds می‌پرسد چگونه پرداخت کنید، سپس شما را به یک ارائه‌دهنده — که در اینجا شبیه‌سازی شده — می‌فرستد یا می‌گوید چگونه به صورت دستی پرداخت کنید و منتظر نتیجه می‌ماند. با نام کاربری demo-admin وارد شده‌اید، مدیریت هر پرداخت نیز به عهده شماست.'
+  catalogue:
+    title: کاتالوگ
+  cases:
+    title: 'چه چیزی را امتحان کنیم'
+    paid:
+      title: 'پرداختی که انجام شد'
+      text: 'با کارت ارائه‌دهنده دمو پرداخت کنید، سپس « پرداخت » را در صفحه آن بزنید — یا با کارت از طریق Stripe، در حالت آزمایشی، با 4242 4242 4242 4242.'
+    declined:
+      title: 'کارت رد شد'
+      text: '« رد » را در صفحه ارائه‌دهنده بزنید؛ پرداخت دوباره می‌تواند امتحان شود.'
+    canceled:
+      title: 'پرداختی که لغو شد'
+      text: '« لغو » را در صفحه ارائه‌دهنده بزنید.'
+    manual:
+      title: 'یک انتقال، تأیید شده به صورت دستی'
+      text: 'از طریق انتقال بانکی پرداخت کنید؛ سپس، به عنوان demo-admin، آن را در مدیریت به عنوان دریافتی علامت‌گذاری کنید.'
+    waiting:
+      title: 'پرداختی که در انتظار است'
+      text: '« بدون تصمیم‌گیری برگردید » در صفحه ارائه‌دهنده؛ صفحه بازگشت منتظر پاسخ ارائه‌دهنده است و به محض دریافت آن را نشان می‌دهد.'
+    refund:
+      title: استرداد
+      text: 'به عنوان demo-admin، یک پرداخت شده را به طور کامل یا جزئی از صفحه آن در مدیریت استرداد کنید.'
+
+ur:
+  page_title: ادائیگی
+  page_icon: 'ph:bold/credit-card'
+  mine: 'میری ادائیگیاں'
+  admin: 'تمام ادائیگیاں'
+  intro: 'نیچے دیئے گئے کیٹلاگ سے کچھ خریدیں: symfony-payment-ds پوچھتا ہے کہ ادائیگی کیسے کی جائے، پھر آپ کو ایک فراہم کنندہ کی طرف بھیجتا ہے — یہاں فرضی — یا آپ کو دستی ادائیگی کرنے کا طریقہ بتاتا ہے، اور نتیجے کا انتظار کرتا ہے۔ ڈیمو ایڈمن کے طور پر سائن ان کریں، ہر ادائیگی کی انتظامیہ آپ کی ہے۔'
+  catalogue:
+    title: کیٹلاگ
+  cases:
+    title: 'کیا آزمانا ہے'
+    paid:
+      title: 'ایک ادائیگی جو کامیاب ہوئی'
+      text: 'ڈیمو فراہم کنندہ کے کارڈ سے ادائیگی کریں، پھر اس کے صفحے پر « ادائیگی کریں » — یا اسٹرائپ کے ذریعے، ٹیسٹ موڈ میں، 4242 4242 4242 4242 کے ساتھ۔'
+    declined:
+      title: 'کارڈ مسترد کر دیا گیا'
+      text: 'فراہم کنندہ کے صفحے پر « مسترد کریں »؛ ادائیگی دوبارہ کوشش کی جا سکتی ہے۔'
+    canceled:
+      title: 'ایک ادائیگی ترک کر دی گئی'
+      text: 'فراہم کنندہ کے صفحے پر « منسوخ کریں »۔'
+    manual:
+      title: 'ایک منتقلی، جس کی تصدیق ہاتھ سے کی گئی'
+      text: 'بینک کے ذریعے منتقلی کریں؛ پھر، بطور ڈیمو ایڈمن، یہ انتظامیہ میں موصول شدہ کے طور پر نشان زد کریں۔'
+    waiting:
+      title: 'ایک ادائیگی انتظار میں ہے'
+      text: 'فراہم کنندہ کے صفحے پر « بغیر فیصلہ کیے واپس جائیں »؛ واپسی کا صفحہ فراہم کنندہ کے جواب کا انتظار کرتا ہے، اور جیسے ہی یہ آتا ہے دکھاتا ہے۔'
+    refund:
+      title: 'ایک رقم کی واپسی'
+      text: 'ڈیمو ایڈمن کے طور پر، ایک ادا شدہ ادائیگی کی مکمل یا جزوی واپسی کریں، انتظامیہ میں اس کے صفحے سے۔'
+
+ja:
+  page_title: 支払い
+  page_icon: 'ph:bold/credit-card'
+  mine: 私の支払い
+  admin: すべての支払い
+  intro: '下のカタログから何かを購入してください：symfony-payment-dsは支払い方法を尋ね、その後、ここでの提供者に送信します — または手動での支払い方法を教え、結果を待ちます。demo-adminとしてサインインすると、すべての支払いの管理もあなたのものです。'
+  catalogue:
+    title: カタログ
+  cases:
+    title: 試すべきこと
+    paid:
+      title: 通過する支払い
+      text: 'デモ提供者のカードで支払った後、そのページで「支払う」をクリック — またはStripeのテストモードで、4242 4242 4242 4242のカードで支払います。'
+    declined:
+      title: カードが拒否された
+      text: 提供者のページで「拒否」を選択；支払いは再試行できます。
+    canceled:
+      title: 支払いをキャンセルした
+      text: 提供者のページで「キャンセル」を選択。
+    manual:
+      title: 手動確認された振込
+      text: 銀行振込で支払います；その後、demo-adminとして管理画面で受領済みとしてマークします。
+    waiting:
+      title: 保留中の支払い
+      text: 提供者のページで「決定せずに戻る」を選択；戻りページは提供者の回答を待ち、受け取るとすぐに表示します。
+    refund:
+      title: 払い戻し
+      text: demo-adminとして、管理画面のページから支払い済みの支払いを全額または一部返金します。
+
+ko:
+  page_title: 결제
+  page_icon: 'ph:bold/credit-card'
+  mine: '내 결제'
+  admin: '모든 결제'
+  intro: '아래 카탈로그에서 상품을 구매하세요: symfony-payment-ds가 결제 방법을 묻고, 그런 다음 제공업체로 안내합니다 — 여기서는 가상의 제공업체 — 또는 수동 결제 방법을 알려주고 결과를 기다립니다. demo-admin으로 로그인하면 모든 결제의 관리 권한도 당신에게 있습니다.'
+  catalogue:
+    title: 카탈로그
+  cases:
+    title: '시도해 볼 것'
+    paid:
+      title: '결제가 완료된 경우'
+      text: '데모 제공업체의 카드로 결제한 후, 해당 페이지에서 « 결제 »를 클릭하세요 — 또는 Stripe의 테스트 모드에서 카드로 결제하고, 카드 번호는 4242 4242 4242 4242입니다.'
+    declined:
+      title: '카드 거부됨'
+      text: '제공업체의 페이지에서 « 거부 »를 클릭하세요; 결제를 다시 시도할 수 있습니다.'
+    canceled:
+      title: '결제를 포기함'
+      text: '제공업체의 페이지에서 « 취소 »를 클릭하세요.'
+    manual:
+      title: '수동으로 확인된 이체'
+      text: '은행 송금으로 결제하세요; 그런 다음 demo-admin으로서 관리에서 수령된 것으로 표시하세요.'
+    waiting:
+      title: '결제가 대기 중'
+      text: '제공업체의 페이지에서 « 결정하지 않고 돌아가기 »를 클릭하세요; 반환 페이지는 제공업체의 답변을 기다리며, 답변이 오면 즉시 표시됩니다.'
+    refund:
+      title: 환불
+      text: 'demo-admin으로서, 관리 페이지에서 전체 또는 일부를 환불하세요.'
+
+bn:
+  page_title: পেমেন্ট
+  page_icon: 'ph:bold/credit-card'
+  mine: 'আমার পেমেন্ট'
+  admin: 'সব পেমেন্ট'
+  intro: 'নিচের ক্যাটালগ থেকে কিছু কিনুন: symfony-payment-ds জিজ্ঞাসা করে কীভাবে পেমেন্ট করবেন, তারপর আপনাকে একটি সরবরাহকারীর দিকে পাঠায় — এখানে অভিনয় করা — অথবা আপনাকে হাতে পেমেন্ট কিভাবে করতে হয় তা বলে, এবং ফলাফলের জন্য অপেক্ষা করে। ডেমো-অ্যাডমিন হিসেবে সাইন ইন করার মাধ্যমে, প্রতিটি পেমেন্টের প্রশাসনও আপনার।'
+  catalogue:
+    title: ক্যাটালগ
+  cases:
+    title: 'কী চেষ্টা করবেন'
+    paid:
+      title: 'একটি সফল পেমেন্ট'
+      text: 'ডেমো সরবরাহকারীর কার্ড দিয়ে পেমেন্ট করুন, তারপর তার পৃষ্ঠায় « পেমেন্ট করুন » — অথবা স্ট্রাইপের মাধ্যমে একটি কার্ড ব্যবহার করে, পরীক্ষামূলক মোডে, 4242 4242 4242 4242 দিয়ে।'
+    declined:
+      title: 'একটি কার্ড বাতিল'
+      text: 'সরবরাহকারীর পৃষ্ঠায় « বাতিল »; পেমেন্ট পুনরায় চেষ্টা করা যেতে পারে।'
+    canceled:
+      title: 'একটি পেমেন্ট বাতিল'
+      text: 'সরবরাহকারীর পৃষ্ঠায় « বাতিল » করুন।'
+    manual:
+      title: 'একটি হস্তান্তর, হাতে নিশ্চিত হয়েছে'
+      text: 'ব্যাংক ট্রান্সফারের মাধ্যমে পেমেন্ট করুন; তারপর, ডেমো-অ্যাডমিন হিসেবে, প্রশাসনে এটি গৃহীত হিসাবে চিহ্নিত করুন।'
+    waiting:
+      title: 'একটি পেমেন্ট অপেক্ষায়'
+      text: 'সরবরাহকারীর পৃষ্ঠায় « সিদ্ধান্ত ছাড়াই ফিরে যান »; ফেরত পৃষ্ঠাটি সরবরাহকারীর উত্তর জন্য অপেক্ষা করে, এবং এটি আসার সাথে সাথে এটি প্রদর্শন করে।'
+    refund:
+      title: 'একটি ফেরত'
+      text: 'ডেমো-অ্যাডমিন হিসেবে, প্রশাসনে তার পৃষ্ঠায় থেকে পূর্ণ বা আংশিকভাবে একটি প্রদত্ত পেমেন্ট ফেরত করুন.'
+
+th:
+  page_title: การชำระเงิน
+  page_icon: 'ph:bold/credit-card'
+  mine: การชำระเงินของฉัน
+  admin: การชำระเงินทั้งหมด
+  intro: 'ซื้อสินค้าจากแคตตาล็อกด้านล่าง: symfony-payment-ds จะถามวิธีการชำระเงิน จากนั้นจะส่งคุณไปยังผู้ให้บริการ — ซึ่งแกล้งทำที่นี่ — หรือบอกวิธีการชำระเงินด้วยตนเอง และรอผลลัพธ์ ลงชื่อเข้าใช้ในฐานะ demo-admin การบริหารจัดการการชำระเงินทุกครั้งก็เป็นของคุณด้วยเช่นกัน.'
+  catalogue:
+    title: แคตตาล็อก
+  cases:
+    title: สิ่งที่ลอง
+    paid:
+      title: การชำระเงินที่สำเร็จ
+      text: 'ชำระเงินด้วยบัตรของผู้ให้บริการเดโม จากนั้นกด « ชำระ » บนหน้าของมัน — หรือใช้บัตรผ่าน Stripe โหมดทดสอบ ด้วยหมายเลข 4242 4242 4242 4242.'
+    declined:
+      title: บัตรถูกปฏิเสธ
+      text: '« ปฏิเสธ » บนหน้าของผู้ให้บริการ; สามารถลองชำระเงินใหม่ได้อีกครั้ง.'
+    canceled:
+      title: การชำระเงินที่ยกเลิก
+      text: '« ยกเลิก » บนหน้าของผู้ให้บริการ.'
+    manual:
+      title: การโอนเงินที่ยืนยันด้วยตนเอง
+      text: 'ชำระเงินด้วยการโอนเงินผ่านธนาคาร; จากนั้นในฐานะ demo-admin ให้ทำเครื่องหมายว่ายืนยันการรับเงินในระบบบริหารจัดการ.'
+    waiting:
+      title: การชำระเงินที่รออยู่
+      text: '« กลับไปโดยไม่ตัดสินใจ » บนหน้าของผู้ให้บริการ; หน้าแสดงผลการคืนจะรอคำตอบจากผู้ให้บริการ และจะแสดงผลทันทีที่ได้รับคำตอบ.'
+    refund:
+      title: การคืนเงิน
+      text: 'ในฐานะ demo-admin คืนเงินการชำระเงินที่จ่ายไปแล้วทั้งหมดหรือบางส่วนจากหน้าของมันในระบบบริหารจัดการ.'
+
+de:
+  page_title: Zahlung
+  page_icon: 'ph:bold/credit-card'
+  mine: 'Meine Zahlungen'
+  admin: 'Alle Zahlungen'
+  intro: 'Kaufen Sie etwas aus dem Katalog unten: symfony-payment-ds fragt, wie Sie bezahlen möchten, und leitet Sie dann zu einem Anbieter — hier simuliert — oder erklärt Ihnen, wie Sie manuell bezahlen können, und wartet auf das Ergebnis. Eingeloggt als demo-admin liegt die Verwaltung jeder Zahlung auch in Ihrer Hand.'
+  catalogue:
+    title: 'Der Katalog'
+  cases:
+    title: 'Was zu versuchen'
+    paid:
+      title: 'Eine erfolgreiche Zahlung'
+      text: 'Zahlen Sie mit der Karte des Demoanbieters und klicken Sie dann auf « Bezahlen » auf dessen Seite — oder mit einer Karte über Stripe, Testmodus, mit 4242 4242 4242 4242.'
+    declined:
+      title: 'Eine abgelehnte Karte'
+      text: '« Ablehnen » auf der Seite des Anbieters; die Zahlung kann erneut versucht werden.'
+    canceled:
+      title: 'Eine aufgegebene Zahlung'
+      text: '« Stornieren » auf der Seite des Anbieters.'
+    manual:
+      title: 'Eine Überweisung, manuell bestätigt'
+      text: 'Zahlen Sie per Banküberweisung; markieren Sie dann als demo-admin in der Verwaltung, dass sie eingegangen ist.'
+    waiting:
+      title: 'Eine wartende Zahlung'
+      text: '« Zurückgehen ohne Entscheidung » auf der Seite des Anbieters; die Rückkehrseite wartet auf die Antwort des Anbieters und zeigt sie an, sobald sie eintrifft.'
+    refund:
+      title: 'Eine Rückerstattung'
+      text: 'Als demo-admin erstatten Sie eine bezahlte Zahlung ganz oder teilweise von ihrer Seite in der Verwaltung.'
+
+fi:
+  page_title: Maksu
+  page_icon: 'ph:bold/credit-card'
+  mine: 'Omat maksut'
+  admin: 'Kaikki maksut'
+  intro: 'Osta jotain alla olevasta luettelosta: symfony-payment-ds kysyy, miten maksaa, sitten ohjaa sinut palveluntarjoajalle — esitetty täällä — tai kertoo, miten maksaa käsin, ja odottaa tulosta. Kirjautuneena demo-adminina jokaisen maksun hallinta on myös sinun.'
+  catalogue:
+    title: Luettelo
+  cases:
+    title: 'Mitä kokeilla'
+    paid:
+      title: 'Maksu, joka menee läpi'
+      text: 'Maksa demo-palveluntarjoajan kortilla, sitten « Maksa » sen sivulla — tai kortilla Stripen kautta, testitilassa, numerolla 4242 4242 4242 4242.'
+    declined:
+      title: 'Kortti hylätty'
+      text: '« Hylkää » palveluntarjoajan sivulla; maksua voidaan yrittää uudelleen.'
+    canceled:
+      title: 'Maksu luovutettu'
+      text: '« Peru » palveluntarjoajan sivulla.'
+    manual:
+      title: 'Siirto, vahvistettu käsin'
+      text: 'Maksa pankkisiirrolla; sitten, demo-adminina, merkitse se vastaanotetuksi hallinnassa.'
+    waiting:
+      title: 'Maksu odottaa'
+      text: '« Palaa ilman päätöstä » palveluntarjoajan sivulla; palaussivu odottaa palveluntarjoajan vastausta ja näyttää sen heti, kun se saapuu.'
+    refund:
+      title: Hyvitys
+      text: 'Demo-adminina hyvitä maksettu maksu kokonaan tai osittain sen sivulta hallinnassa.'
+
+ru:
+  page_title: Оплата
+  page_icon: 'ph:bold/credit-card'
+  mine: 'Мои платежи'
+  admin: 'Все платежи'
+  intro: 'Купите что-нибудь из каталога ниже: symfony-payment-ds спрашивает, как оплатить, затем отправляет вас к провайдеру — здесь это имитируется — или говорит, как оплатить вручную, и ждет результата. Войдя как demo-admin, вы также управляете каждым платежом.'
+  catalogue:
+    title: Каталог
+  cases:
+    title: 'Что попробовать'
+    paid:
+      title: 'Успешный платеж'
+      text: 'Оплатите картой демо-провайдера, затем нажмите « Оплатить » на его странице — или с помощью карты через Stripe, тестовый режим, с номером 4242 4242 4242 4242.'
+    declined:
+      title: 'Карточка отклонена'
+      text: '« Отклонить » на странице провайдера; платеж можно попробовать снова.'
+    canceled:
+      title: 'Платеж отменен'
+      text: '« Отменить » на странице провайдера.'
+    manual:
+      title: 'Перевод, подтвержденный вручную'
+      text: 'Оплатите банковским переводом; затем, как demo-admin, отметьте его как полученный в администрировании.'
+    waiting:
+      title: 'Платеж в ожидании'
+      text: '« Вернуться без решения » на странице провайдера; страница возврата ждет ответа от провайдера и показывает его, как только он поступит.'
+    refund:
+      title: Возврат
+      text: 'Как demo-admin, выполните возврат оплаченного платежа, полностью или частично, со страницы в администрировании.'
+
+pl:
+  page_title: Płatność
+  page_icon: 'ph:bold/credit-card'
+  mine: 'Moje płatności'
+  admin: 'Wszystkie płatności'
+  intro: 'Kup coś z katalogu poniżej: symfony-payment-ds pyta, jak zapłacić, następnie kieruje cię do dostawcy — udawane tutaj — lub informuje, jak zapłacić ręcznie, i czeka na wynik. Zalogowany jako demo-admin, administracja każdej płatności również należy do ciebie.'
+  catalogue:
+    title: Katalog
+  cases:
+    title: 'Co spróbować'
+    paid:
+      title: 'Płatność, która przeszła'
+      text: 'Zapłać kartą dostawcy demo, a następnie kliknij « Zapłać » na jego stronie — lub kartą przez Stripe, w trybie testowym, z numerem 4242 4242 4242 4242.'
+    declined:
+      title: 'Odrzucona karta'
+      text: '« Odrzuć » na stronie dostawcy; płatność można spróbować ponownie.'
+    canceled:
+      title: 'Płatność anulowana'
+      text: '« Anuluj » na stronie dostawcy.'
+    manual:
+      title: 'Przelew, potwierdzony ręcznie'
+      text: 'Zapłać przelewem bankowym; następnie, jako demo-admin, oznacz go jako odebrany w administracji.'
+    waiting:
+      title: 'Płatność w oczekiwaniu'
+      text: '« Wróć bez podejmowania decyzji » na stronie dostawcy; strona powrotna czeka na odpowiedź dostawcy i wyświetla ją, gdy tylko nadejdzie.'
+    refund:
+      title: Zwrót
+      text: 'Jako demo-admin, zwróć opłaconą płatność, w całości lub częściowo, z jej strony w administracji.'
+
+es:
+  page_title: Pago
+  page_icon: 'ph:bold/credit-card'
+  mine: 'Mis pagos'
+  admin: 'Todos los pagos'
+  intro: 'Compra algo del catálogo a continuación: symfony-payment-ds pregunta cómo pagar, luego te envía a un proveedor — fingido aquí — o te dice cómo pagar a mano y espera el resultado. Iniciado sesión como demo-admin, la administración de cada pago también es tuya.'
+  catalogue:
+    title: 'El catálogo'
+  cases:
+    title: 'Qué intentar'
+    paid:
+      title: 'Un pago que se procesa'
+      text: 'Paga con la tarjeta del proveedor de demostración, luego « Pagar » en su página — o con una tarjeta a través de Stripe, modo de prueba, con 4242 4242 4242 4242.'
+    declined:
+      title: 'Una tarjeta rechazada'
+      text: '« Rechazar » en la página del proveedor; el pago puede intentarse de nuevo.'
+    canceled:
+      title: 'Un pago cancelado'
+      text: '« Cancelar » en la página del proveedor.'
+    manual:
+      title: 'Una transferencia, confirmada a mano'
+      text: 'Paga por transferencia bancaria; luego, como demo-admin, márcalo como recibido en la administración.'
+    waiting:
+      title: 'Un pago dejado en espera'
+      text: '« Volver sin decidir » en la página del proveedor; la página de retorno espera la respuesta del proveedor y la muestra tan pronto como llega.'
+    refund:
+      title: 'Un reembolso'
+      text: 'Como demo-admin, reembolsa un pago realizado, total o parcialmente, desde su página en la administración.'
+
+it:
+  page_title: Pagamento
+  page_icon: 'ph:bold/credit-card'
+  mine: 'I miei pagamenti'
+  admin: 'Tutti i pagamenti'
+  intro: "Acquista qualcosa dal catalogo qui sotto: symfony-payment-ds chiede come pagare, poi ti invia a un fornitore — simulato qui — o ti dice come pagare manualmente, e attende l'esito. Accedendo come demo-admin, l'amministrazione di ogni pagamento è anche tua."
+  catalogue:
+    title: 'Il catalogo'
+  cases:
+    title: 'Cosa provare'
+    paid:
+      title: 'Un pagamento andato a buon fine'
+      text: 'Paga con la carta del fornitore demo, poi « Paga » sulla sua pagina — oppure con una carta tramite Stripe, in modalità test, con 4242 4242 4242 4242.'
+    declined:
+      title: 'Una carta rifiutata'
+      text: '« Rifiuta » sulla pagina del fornitore; il pagamento può essere riprovato.'
+    canceled:
+      title: 'Un pagamento annullato'
+      text: '« Annulla » sulla pagina del fornitore.'
+    manual:
+      title: 'Un bonifico, confermato manualmente'
+      text: "Paga tramite bonifico bancario; poi, come demo-admin, segnalo ricevuto nell'amministrazione."
+    waiting:
+      title: 'Un pagamento in attesa'
+      text: '« Torna indietro senza decidere » sulla pagina del fornitore; la pagina di ritorno attende la risposta del fornitore e la mostra non appena arriva.'
+    refund:
+      title: 'Un rimborso'
+      text: "Come demo-admin, rimborsa un pagamento effettuato, in tutto o in parte, dalla sua pagina nell'amministrazione."
+
+pt_BR:
+  page_title: Pagamento
+  page_icon: 'ph:bold/credit-card'
+  mine: 'Meus pagamentos'
+  admin: 'Todos os pagamentos'
+  intro: 'Compre algo no catálogo abaixo: symfony-payment-ds pergunta como pagar, depois te envia para um provedor — simulado aqui — ou te informa como pagar manualmente e aguarda o resultado. Logado como demo-admin, a administração de cada pagamento também é sua.'
+  catalogue:
+    title: 'O catálogo'
+  cases:
+    title: 'O que experimentar'
+    paid:
+      title: 'Um pagamento que foi aprovado'
+      text: 'Pague com o cartão do provedor de demonstração, depois clique em « Pagar » na sua página — ou com um cartão através do Stripe, modo de teste, com 4242 4242 4242 4242.'
+    declined:
+      title: 'Um cartão recusado'
+      text: 'Clique em « Recusar » na página do provedor; o pagamento pode ser tentado novamente.'
+    canceled:
+      title: 'Um pagamento cancelado'
+      text: 'Clique em « Cancelar » na página do provedor.'
+    manual:
+      title: 'Uma transferência, confirmada manualmente'
+      text: 'Pague por transferência bancária; depois, como demo-admin, marque como recebido na administração.'
+    waiting:
+      title: 'Um pagamento em espera'
+      text: 'Clique em « Voltar sem decidir » na página do provedor; a página de retorno aguarda a resposta do provedor e a mostra assim que chega.'
+    refund:
+      title: 'Um reembolso'
+      text: 'Como demo-admin, reembolse um pagamento realizado, total ou parcialmente, a partir da sua página na administração.'
+
+tr:
+  page_title: Ödeme
+  page_icon: 'ph:bold/credit-card'
+  mine: Ödemelerim
+  admin: 'Tüm ödemeler'
+  intro: 'Aşağıdaki katalogdan bir şey satın alın: symfony-payment-ds nasıl ödeme yapacağınızı sorar, ardından sizi burada taklit edilen bir sağlayıcıya yönlendirir veya manuel olarak nasıl ödeyeceğinizi söyler ve sonucu bekler. demo-admin olarak oturum açtığınızda, her ödemenin yönetimi de size aittir.'
+  catalogue:
+    title: Katalog
+  cases:
+    title: Denenecekler
+    paid:
+      title: 'Geçerli bir ödeme'
+      text: 'Demo sağlayıcının kartıyla ödeme yapın, ardından sayfasında « Öde » butonuna tıklayın — veya bir kartla Stripe üzerinden, test modunda, 4242 4242 4242 4242 ile ödeme yapın.'
+    declined:
+      title: 'Bir kart reddedildi'
+      text: 'Sağlayıcının sayfasında « Reddet »; ödeme tekrar denenebilir.'
+    canceled:
+      title: 'Bir ödeme iptal edildi'
+      text: 'Sağlayıcının sayfasında « İptal Et ».'
+    manual:
+      title: 'El ile onaylanan bir transfer'
+      text: 'Banka havalesi ile ödeme yapın; ardından, demo-admin olarak, yönetimde alındı olarak işaretleyin.'
+    waiting:
+      title: 'Beklemede kalan bir ödeme'
+      text: 'Sağlayıcının sayfasında « Karar vermeden geri dön »; dönüş sayfası sağlayıcının yanıtını bekler ve yanıt geldiği anda gösterir.'
+    refund:
+      title: 'Bir iade'
+      text: 'Demo-admin olarak, yönetimdeki sayfasından bir ödenmiş ödemeyi tamamıyla veya kısmen iade edin.'
+
+vi:
+  page_title: 'Thanh toán'
+  page_icon: 'ph:bold/credit-card'
+  mine: 'Thanh toán của tôi'
+  admin: 'Tất cả các khoản thanh toán'
+  intro: 'Mua một thứ gì đó từ danh mục bên dưới: symfony-payment-ds hỏi cách thanh toán, sau đó chuyển bạn đến một nhà cung cấp — giả định ở đây — hoặc cho bạn biết cách thanh toán bằng tay, và chờ kết quả. Đăng nhập với tư cách là demo-admin, việc quản lý mọi khoản thanh toán cũng thuộc về bạn.'
+  catalogue:
+    title: 'Danh mục'
+  cases:
+    title: 'Những gì để thử'
+    paid:
+      title: 'Một khoản thanh toán thành công'
+      text: 'Thanh toán bằng thẻ của nhà cung cấp demo, sau đó nhấn « Thanh toán » trên trang của nó — hoặc bằng thẻ qua Stripe, chế độ thử nghiệm, với 4242 4242 4242 4242.'
+    declined:
+      title: 'Một thẻ bị từ chối'
+      text: '« Từ chối » trên trang của nhà cung cấp; khoản thanh toán có thể được thử lại.'
+    canceled:
+      title: 'Một khoản thanh toán bị hủy'
+      text: '« Hủy » trên trang của nhà cung cấp.'
+    manual:
+      title: 'Một khoản chuyển khoản, được xác nhận bằng tay'
+      text: 'Thanh toán bằng chuyển khoản ngân hàng; sau đó, với tư cách là demo-admin, đánh dấu nó là đã nhận trong quản lý.'
+    waiting:
+      title: 'Một khoản thanh toán đang chờ'
+      text: '« Quay lại mà không quyết định » trên trang của nhà cung cấp; trang trở lại chờ câu trả lời từ nhà cung cấp, và hiển thị ngay khi có.'
+    refund:
+      title: 'Một khoản hoàn lại'
+      text: 'Với tư cách là demo-admin, hoàn lại một khoản thanh toán đã được thực hiện, toàn bộ hoặc một phần, từ trang của nó trong quản lý.'
+
+id:
+  page_title: Pembayaran
+  page_icon: 'ph:bold/credit-card'
+  mine: 'Pembayaran saya'
+  admin: 'Semua pembayaran'
+  intro: 'Beli sesuatu dari katalog di bawah ini: symfony-payment-ds menanyakan bagaimana cara membayar, kemudian mengarahkan Anda ke penyedia — yang dipura-pura di sini — atau memberi tahu Anda cara membayar secara manual, dan menunggu hasilnya. Masuk sebagai demo-admin, administrasi setiap pembayaran juga milik Anda.'
+  catalogue:
+    title: Katalog
+  cases:
+    title: 'Apa yang dicoba'
+    paid:
+      title: 'Pembayaran yang berhasil'
+      text: 'Bayar dengan kartu penyedia demo, kemudian « Bayar » di halamannya — atau dengan kartu melalui Stripe, mode uji, dengan 4242 4242 4242 4242.'
+    declined:
+      title: 'Kartu ditolak'
+      text: '« Tolak » di halaman penyedia; pembayaran dapat dicoba lagi.'
+    canceled:
+      title: 'Pembayaran dibatalkan'
+      text: '« Batalkan » di halaman penyedia.'
+    manual:
+      title: 'Transfer, dikonfirmasi secara manual'
+      text: 'Bayar melalui transfer bank; kemudian, sebagai demo-admin, tandai sebagai diterima di administrasi.'
+    waiting:
+      title: 'Pembayaran menunggu'
+      text: '« Kembali tanpa memutuskan » di halaman penyedia; halaman kembali menunggu jawaban dari penyedia, dan menampilkannya segera setelah diterima.'
+    refund:
+      title: 'Pengembalian dana'
+      text: 'Sebagai demo-admin, kembalikan pembayaran yang telah dibayar, secara keseluruhan atau sebagian, dari halamannya di administrasi.'
+
+nl:
+  page_title: Betaling
+  page_icon: 'ph:bold/credit-card'
+  mine: 'Mijn betalingen'
+  admin: 'Alle betalingen'
+  intro: 'Koop iets uit de catalogus hieronder: symfony-payment-ds vraagt hoe te betalen, stuurt je dan naar een provider — hier gesimuleerd — of vertelt je hoe je handmatig kunt betalen en wacht op de uitkomst. Aangemeld als demo-admin, is de administratie van elke betaling ook jouw verantwoordelijkheid.'
+  catalogue:
+    title: 'De catalogus'
+  cases:
+    title: 'Wat te proberen'
+    paid:
+      title: 'Een succesvolle betaling'
+      text: 'Betaal met de kaart van de demo-provider, en klik dan op « Betalen » op zijn pagina — of met een kaart via Stripe, testmodus, met 4242 4242 4242 4242.'
+    declined:
+      title: 'Een geweigerde kaart'
+      text: 'Klik op « Weigeren » op de pagina van de provider; de betaling kan opnieuw worden geprobeerd.'
+    canceled:
+      title: 'Een geannuleerde betaling'
+      text: 'Klik op « Annuleren » op de pagina van de provider.'
+    manual:
+      title: 'Een handmatige bevestigde overschrijving'
+      text: 'Betaal per bankoverschrijving; markeer het vervolgens als ontvangen in de administratie als demo-admin.'
+    waiting:
+      title: 'Een betaling die wacht'
+      text: 'Klik op « Ga terug zonder te beslissen » op de pagina van de provider; de retourpagina wacht op het antwoord van de provider en toont het zodra het binnenkomt.'
+    refund:
+      title: 'Een terugbetaling'
+      text: 'Als demo-admin, terugbetaal een betaalde betaling, volledig of gedeeltelijk, vanuit de pagina in de administratie.'

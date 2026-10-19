@@ -57,3 +57,288 @@ ar:
     decline: 'رفض البطاقة'
     cancel: 'إلغاء والعودة'
     later: 'العودة دون اتخاذ قرار'
+
+hi:
+  page_title: 'डेमो प्रदाता'
+  page_icon: 'ph:bold/storefront'
+  notice:
+    title: 'एक प्रदाता ने दिखावा किया'
+    body: 'यह पृष्ठ एक प्रदाता का अपना है — एक कार्ड फॉर्म, एक बैंक का पृष्ठ। वह चुनें जो भुगतानकर्ता करता है; एप्लिकेशन को बताया जाता है जैसे एक असली प्रदाता का वेबहुक उसे बताएगा।'
+  amount: 'भुगतान करने के लिए'
+  reference: 'प्रदाता का संदर्भ'
+  status: 'प्रदाता पर स्थिति'
+  outcome:
+    pay: 'भुगतान करें'
+    decline: 'कार्ड अस्वीकार करें'
+    cancel: 'रद्द करें और वापस जाएं'
+    later: 'निर्णय किए बिना वापस जाएं'
+
+he:
+  page_title: 'ספק דמו'
+  page_icon: 'ph:bold/storefront'
+  notice:
+    title: 'ספק התחזה'
+    body: 'דף זה מייצג את הספק עצמו — טופס כרטיס, דף בנק. בחר מה עושה המשלם; האפליקציה מתעדכנת כפי ש-webhook של ספק אמיתי היה מעדכן אותה.'
+  amount: לתשלום
+  reference: 'הפניה של הספק'
+  status: 'סטטוס אצל הספק'
+  outcome:
+    pay: שלם
+    decline: 'סירב לכרטיס'
+    cancel: 'בטל וחזור'
+    later: 'חזור מבלי לקבל החלטה'
+
+fa:
+  page_title: 'عرضه کننده دمو'
+  page_icon: 'ph:bold/storefront'
+  notice:
+    title: 'یک عرضه کننده خود را جا زد'
+    body: 'این صفحه نمایانگر صفحه خود یک عرضه کننده است — یک فرم کارت، صفحه بانکی. انتخاب کنید که پرداخت کننده چه کاری انجام دهد؛ اپلیکیشن همانطور که یک وب‌هوک واقعی از عرضه کننده به آن می‌گوید، عمل می‌کند.'
+  amount: 'برای پرداخت'
+  reference: 'ارجاع عرضه کننده'
+  status: 'وضعیت در عرضه کننده'
+  outcome:
+    pay: پرداخت
+    decline: 'رد کردن کارت'
+    cancel: 'لغو و بازگشت'
+    later: 'بدون تصمیم‌گیری بازگشت'
+
+ur:
+  page_title: 'ڈیمو فراہم کنندہ'
+  page_icon: 'ph:bold/storefront'
+  notice:
+    title: 'ایک فراہم کنندہ نے جعلسازی کی'
+    body: 'یہ صفحہ ایک فراہم کنندہ کے اپنے لیے ہے — ایک کارڈ فارم، ایک بینک کا صفحہ۔ ادائیگی کرنے والے کے عمل کا انتخاب کریں؛ ایپلیکیشن کو بتائیے کہ یہ ایک حقیقی فراہم کنندہ کے ویب ہک کی طرح ہے۔'
+  amount: 'ادائیگی کرنا'
+  reference: 'فراہم کنندہ کا حوالہ'
+  status: 'فراہم کنندہ پر حیثیت'
+  outcome:
+    pay: 'ادائیگی کریں'
+    decline: 'کارڈ مسترد کریں'
+    cancel: 'کینسل کریں اور واپس جائیں'
+    later: 'بغیر فیصلہ کیے واپس جائیں'
+
+ja:
+  page_title: デモプロバイダー
+  page_icon: 'ph:bold/storefront'
+  notice:
+    title: プロバイダーが偽装しています
+    body: 'このページは、プロバイダー自身を表しています — カードフォーム、銀行のページです。支払者が何をするかを選択してください。アプリケーションは、実際のプロバイダーのWebhookが伝えるように指示されます。'
+  amount: 支払う
+  reference: プロバイダーの参照
+  status: プロバイダーでのステータス
+  outcome:
+    pay: 支払う
+    decline: カードを拒否する
+    cancel: キャンセルして戻る
+    later: 決定せずに戻る
+
+ko:
+  page_title: '데모 제공자'
+  page_icon: 'ph:bold/storefront'
+  notice:
+    title: '제공자가 가장했습니다'
+    body: '이 페이지는 제공자의 고유한 것입니다 — 카드 양식, 은행의 페이지. 지불자가 무엇을 하는지 선택하세요; 애플리케이션은 실제 제공자의 웹후크가 알려줄 것처럼 알려집니다.'
+  amount: '지불할 금액'
+  reference: '제공자의 참조'
+  status: '제공자의 상태'
+  outcome:
+    pay: 지불하기
+    decline: '카드 거부'
+    cancel: '취소하고 돌아가기'
+    later: '결정을 내리지 않고 돌아가기'
+
+bn:
+  page_title: 'ডেমো প্রোভাইডার'
+  page_icon: 'ph:bold/storefront'
+  notice:
+    title: 'একটি প্রোভাইডার ভান করেছে'
+    body: 'এই পৃষ্ঠা একটি প্রোভাইডারের নিজস্ব প্রতিনিধিত্ব করে — একটি কার্ড ফর্ম, একটি ব্যাংকের পৃষ্ঠা। পেমেন্টকারী কী করবে তা নির্বাচন করুন; অ্যাপ্লিকেশনটি একটি বাস্তব প্রোভাইডারের ওয়েবহুকের মতোই বলা হয়।'
+  amount: 'পেমেন্ট করতে'
+  reference: 'প্রোভাইডারের রেফারেন্স'
+  status: 'প্রোভাইডারের স্থিতি'
+  outcome:
+    pay: 'পেমেন্ট করুন'
+    decline: 'কার্ডটি প্রত্যাখ্যান করুন'
+    cancel: 'বাতিল করুন এবং ফিরে যান'
+    later: 'নির্ধারণ না করেই ফিরে যান'
+
+th:
+  page_title: ผู้ให้บริการสาธิต
+  page_icon: 'ph:bold/storefront'
+  notice:
+    title: ผู้ให้บริการแกล้งทำ
+    body: 'หน้านี้แสดงถึงบริษัทผู้ให้บริการ — แบบฟอร์มบัตร หน้าธนาคาร เลือกสิ่งที่ผู้จ่ายทำ; แอปพลิเคชันจะได้รับข้อมูลเหมือนกับที่เว็บฮุกของผู้ให้บริการจริงจะส่งให้มัน'
+  amount: ชำระเงิน
+  reference: การอ้างอิงของผู้ให้บริการ
+  status: สถานะที่ผู้ให้บริการ
+  outcome:
+    pay: จ่ายเงิน
+    decline: ปฏิเสธบัตร
+    cancel: ยกเลิกและกลับไป
+    later: กลับไปโดยไม่ตัดสินใจ
+
+de:
+  page_title: Demonstrationsanbieter
+  page_icon: 'ph:bold/storefront'
+  notice:
+    title: 'Ein Anbieter hat vorgetäuscht'
+    body: 'Diese Seite steht für die eigene Seite eines Anbieters – ein Kartenformular, eine Bankseite. Wählen Sie, was der Zahler tut; die Anwendung wird so informiert, wie es ein echter Webhook eines Anbieters tun würde.'
+  amount: 'Zu zahlen'
+  reference: 'Referenz des Anbieters'
+  status: 'Status beim Anbieter'
+  outcome:
+    pay: Zahlen
+    decline: 'Karte ablehnen'
+    cancel: 'Abbrechen und zurückgehen'
+    later: 'Zurückgehen ohne Entscheidung'
+
+fi:
+  page_title: Demo-toimittaja
+  page_icon: 'ph:bold/storefront'
+  notice:
+    title: 'Toimittaja esiintyi'
+    body: 'Tämä sivu edustaa toimittajan omaa — korttilomake, pankin sivu. Valitse, mitä maksaja tekee; sovellusta informoidaan kuten oikean toimittajan webhook kertoisi.'
+  amount: Maksaa
+  reference: 'Toimittajan viite'
+  status: 'Tila toimittajalla'
+  outcome:
+    pay: Maksa
+    decline: 'Hylkää kortti'
+    cancel: 'Peruuta ja palaa takaisin'
+    later: 'Palaa takaisin ilman päätöstä'
+
+ru:
+  page_title: Демо-провайдер
+  page_icon: 'ph:bold/storefront'
+  notice:
+    title: 'Провайдер притворился'
+    body: 'Эта страница представляет собой собственную страницу провайдера — форму карты, страницу банка. Выберите, что делает плательщик; приложение получает информацию так, как это сделал бы вебхук реального провайдера.'
+  amount: 'К оплате'
+  reference: 'Ссылка провайдера'
+  status: 'Статус у провайдера'
+  outcome:
+    pay: Оплатить
+    decline: 'Отклонить карту'
+    cancel: 'Отменить и вернуться назад'
+    later: 'Вернуться назад без решения'
+
+pl:
+  page_title: 'Dostawca demonstracyjny'
+  page_icon: 'ph:bold/storefront'
+  notice:
+    title: 'Dostawca udawał'
+    body: 'Ta strona reprezentuje własny interfejs dostawcy — formularz karty, strona banku. Wybierz, co ma zrobić płacący; aplikacja jest informowana tak, jakby to zrobił webhook rzeczywistego dostawcy.'
+  amount: 'Do zapłaty'
+  reference: 'Referencja dostawcy'
+  status: 'Status u dostawcy'
+  outcome:
+    pay: Zapłać
+    decline: 'Odrzuć kartę'
+    cancel: 'Anuluj i wróć'
+    later: 'Wróć bez podejmowania decyzji'
+
+es:
+  page_title: 'Proveedor de demostración'
+  page_icon: 'ph:bold/storefront'
+  notice:
+    title: 'Un proveedor se hizo pasar por otro'
+    body: 'Esta página representa la propia del proveedor — un formulario de tarjeta, la página de un banco. Elige lo que hace el pagador; la aplicación recibe la información como lo haría un webhook de un proveedor real.'
+  amount: 'A pagar'
+  reference: 'Referencia del proveedor'
+  status: 'Estado en el proveedor'
+  outcome:
+    pay: Pagar
+    decline: 'Rechazar la tarjeta'
+    cancel: 'Cancelar y volver'
+    later: 'Volver sin decidir'
+
+it:
+  page_title: 'Fornitore demo'
+  page_icon: 'ph:bold/storefront'
+  notice:
+    title: 'Un fornitore ha simulato'
+    body: "Questa pagina rappresenta un fornitore — un modulo di carta, una pagina bancaria. Scegli cosa fa il pagatore; l'applicazione è informata come un webhook di un vero fornitore farebbe."
+  amount: 'Da pagare'
+  reference: 'Riferimento del fornitore'
+  status: 'Stato presso il fornitore'
+  outcome:
+    pay: Paga
+    decline: 'Rifiuta la carta'
+    cancel: 'Annulla e torna indietro'
+    later: 'Torna indietro senza decidere'
+
+pt_BR:
+  page_title: 'Fornecedor de demonstração'
+  page_icon: 'ph:bold/storefront'
+  notice:
+    title: 'Um fornecedor fingiu'
+    body: 'Esta página representa a própria do fornecedor — um formulário de cartão, uma página do banco. Escolha o que o pagador faz; a aplicação é informada como um webhook real de fornecedor faria.'
+  amount: 'Para pagar'
+  reference: 'Referência do fornecedor'
+  status: 'Status no fornecedor'
+  outcome:
+    pay: Pagar
+    decline: 'Recusar o cartão'
+    cancel: 'Cancelar e voltar'
+    later: 'Voltar sem decidir'
+
+tr:
+  page_title: 'Demo sağlayıcı'
+  page_icon: 'ph:bold/storefront'
+  notice:
+    title: 'Bir sağlayıcı taklit etti'
+    body: "Bu sayfa, bir sağlayıcının kendi sayfasını temsil eder — bir kart formu, bir banka sayfası. Ödeyenin ne yapacağını seçin; uygulama, gerçek bir sağlayıcının webhook'undan nasıl bildireceğini öğrenir."
+  amount: 'Ödenecek tutar'
+  reference: 'Sağlayıcının referansı'
+  status: 'Sağlayıcıda durum'
+  outcome:
+    pay: Öde
+    decline: 'Kartı reddet'
+    cancel: 'İptal et ve geri dön'
+    later: 'Karar vermeden geri dön'
+
+vi:
+  page_title: 'Nhà cung cấp demo'
+  page_icon: 'ph:bold/storefront'
+  notice:
+    title: 'Một nhà cung cấp giả mạo'
+    body: 'Trang này đại diện cho trang của nhà cung cấp — một mẫu thẻ, trang của ngân hàng. Chọn hành động của người thanh toán; ứng dụng được thông báo như cách mà webhook của nhà cung cấp thực sự sẽ thông báo.'
+  amount: 'Để thanh toán'
+  reference: 'Tham chiếu của nhà cung cấp'
+  status: 'Trạng thái tại nhà cung cấp'
+  outcome:
+    pay: 'Thanh toán'
+    decline: 'Từ chối thẻ'
+    cancel: 'Hủy bỏ và quay lại'
+    later: 'Quay lại mà không quyết định'
+
+id:
+  page_title: 'Penyedia Demo'
+  page_icon: 'ph:bold/storefront'
+  notice:
+    title: 'Seorang penyedia berpura-pura'
+    body: 'Halaman ini mewakili milik penyedia — formulir kartu, halaman bank. Pilih apa yang dilakukan pembayar; aplikasi diberitahu seperti yang akan diberitahu oleh webhook penyedia yang sebenarnya.'
+  amount: 'Untuk dibayar'
+  reference: 'Referensi penyedia'
+  status: 'Status di penyedia'
+  outcome:
+    pay: Bayar
+    decline: 'Tolak kartu'
+    cancel: 'Batal dan kembali'
+    later: 'Kembali tanpa memutuskan'
+
+nl:
+  page_title: 'Demo provider'
+  page_icon: 'ph:bold/storefront'
+  notice:
+    title: 'Een provider doet alsof'
+    body: 'Deze pagina staat voor de eigen pagina van een provider — een kaartformulier, een bankpagina. Kies wat de betaler doet; de applicatie krijgt informatie zoals een echte webhook van een provider dat zou geven.'
+  amount: 'Te betalen'
+  reference: 'Referentie van de provider'
+  status: 'Status bij de provider'
+  outcome:
+    pay: Betalen
+    decline: 'Weigeren van de kaart'
+    cancel: 'Annuleren en teruggaan'
+    later: 'Teruggaan zonder beslissing'
