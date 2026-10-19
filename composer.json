@@ -29,7 +29,7 @@
     "wexample/symfony-payment-ds": ">=2.0.0",
     "wexample/symfony-remote-payment": ">=3.0.0",
     "wexample/symfony-user": ">=12.0.0",
-    "wexample/symfony-user-demo": ">=6.0.0"
+    "wexample/symfony-user-demo": ">=6.1.0"
   },
   "require-dev": {
     "phpunit/phpunit": "^13"
