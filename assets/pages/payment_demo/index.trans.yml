@@ -1,5 +1,6 @@
 en:
   page_title: Payment
+  page_description: "A payment flow to try: choose how to pay, go through a simulated provider or pay by hand, then follow the outcome, with an admin view of all payments."
   page_icon: ph:bold/credit-card
   mine: My payments
   admin: All payments
@@ -33,6 +34,7 @@ en:
 
 fr:
   page_title: Paiement
+  page_description: "Un parcours de paiement à essayer : choisir comment payer, passer par un prestataire simulé ou payer à la main, puis suivre le résultat, avec une vue d'administration de tous les paiements."
   page_icon: 'ph:bold/credit-card'
   mine: 'Mes paiements'
   admin: 'Tous les paiements'
@@ -62,6 +64,7 @@ fr:
 
 zh:
   page_title: 支付
+  page_description: "可试用的支付流程：选择支付方式，通过模拟的支付服务商或手动支付，然后跟踪结果，并可在管理视图查看所有付款。"
   page_icon: 'ph:bold/credit-card'
   mine: 我的支付
   admin: 所有支付
@@ -91,6 +94,7 @@ zh:
 
 ar:
   page_title: الدفع
+  page_description: "مسار دفع يمكنك تجربته: اختر طريقة الدفع، مرّ عبر مزوّد محاكى أو ادفع يدويًا، ثم تابع النتيجة، مع عرض إداري لكل المدفوعات."
   page_icon: 'ph:bold/credit-card'
   mine: مدفوعاتي
   admin: 'جميع المدفوعات'
@@ -120,6 +124,7 @@ ar:
 
 hi:
   page_title: भुगतान
+  page_description: "आज़माने के लिए भुगतान प्रवाह: भुगतान का तरीका चुनें, नकली प्रदाता से गुज़रें या हाथ से भुगतान करें, फिर परिणाम देखें, सभी भुगतानों के एडमिन दृश्य के साथ।"
   page_icon: 'ph:bold/credit-card'
   mine: 'मेरे भुगतान'
   admin: 'सभी भुगतान'
@@ -149,6 +154,7 @@ hi:
 
 he:
   page_title: תשלום
+  page_description: "תהליך תשלום לניסיון: בוחרים איך לשלם, עוברים דרך ספק מדומה או משלמים ידנית, ועוקבים אחר התוצאה, עם תצוגת ניהול של כל התשלומים."
   page_icon: 'ph:bold/credit-card'
   mine: 'התשלומים שלי'
   admin: 'כל התשלומים'
@@ -178,6 +184,7 @@ he:
 
 fa:
   page_title: پرداخت
+  page_description: "یک فرایند پرداخت برای امتحان: روش پرداخت را انتخاب کنید، از درگاهی شبیه‌سازی‌شده بگذرید یا دستی بپردازید و نتیجه را دنبال کنید، با نمای مدیریتی همه پرداخت‌ها."
   page_icon: 'ph:bold/credit-card'
   mine: 'پرداخت‌های من'
   admin: 'تمام پرداخت‌ها'
@@ -207,6 +214,7 @@ fa:
 
 ur:
   page_title: ادائیگی
+  page_description: "آزمانے کے لیے ادائیگی کا عمل: ادائیگی کا طریقہ چنیں، فرضی فراہم کنندہ سے گزریں یا دستی ادائیگی کریں، پھر نتیجہ دیکھیں، تمام ادائیگیوں کے ایڈمن منظر کے ساتھ۔"
   page_icon: 'ph:bold/credit-card'
   mine: 'میری ادائیگیاں'
   admin: 'تمام ادائیگیاں'
@@ -236,6 +244,7 @@ ur:
 
 ja:
   page_title: 支払い
+  page_description: "試せる決済フロー。支払い方法を選び、模擬決済サービスを通るか手動で支払い、結果を確認。すべての支払いを見られる管理画面付き。"
   page_icon: 'ph:bold/credit-card'
   mine: 私の支払い
   admin: すべての支払い
@@ -265,6 +274,7 @@ ja:
 
 ko:
   page_title: 결제
+  page_description: "직접 해 보는 결제 흐름: 결제 방법을 고르고, 모의 결제 대행사를 거치거나 수동으로 결제한 뒤 결과를 확인합니다. 전체 결제를 보는 관리자 화면 포함."
   page_icon: 'ph:bold/credit-card'
   mine: '내 결제'
   admin: '모든 결제'
@@ -294,6 +304,7 @@ ko:
 
 bn:
   page_title: পেমেন্ট
+  page_description: "চেষ্টা করার মতো পেমেন্ট প্রবাহ: কীভাবে দেবেন বেছে নিন, একটি সিমুলেটেড প্রোভাইডারের মধ্য দিয়ে যান বা হাতে পরিশোধ করুন, তারপর ফলাফল দেখুন, সব পেমেন্টের অ্যাডমিন ভিউসহ।"
   page_icon: 'ph:bold/credit-card'
   mine: 'আমার পেমেন্ট'
   admin: 'সব পেমেন্ট'
@@ -323,6 +334,7 @@ bn:
 
 th:
   page_title: การชำระเงิน
+  page_description: "ขั้นตอนการชำระเงินให้ลอง: เลือกวิธีชำระ ผ่านผู้ให้บริการจำลองหรือชำระด้วยตนเอง แล้วติดตามผล พร้อมมุมมองผู้ดูแลสำหรับการชำระเงินทั้งหมด"
   page_icon: 'ph:bold/credit-card'
   mine: การชำระเงินของฉัน
   admin: การชำระเงินทั้งหมด
@@ -352,6 +364,7 @@ th:
 
 de:
   page_title: Zahlung
+  page_description: "Ein Zahlungsablauf zum Ausprobieren: Zahlungsart wählen, über einen simulierten Anbieter gehen oder manuell zahlen, dann das Ergebnis verfolgen, mit einer Admin-Ansicht aller Zahlungen."
   page_icon: 'ph:bold/credit-card'
   mine: 'Meine Zahlungen'
   admin: 'Alle Zahlungen'
@@ -381,6 +394,7 @@ de:
 
 fi:
   page_title: Maksu
+  page_description: "Kokeiltava maksupolku: valitse maksutapa, kulje simuloidun maksupalvelun kautta tai maksa käsin ja seuraa lopputulosta, ylläpitonäkymällä kaikkiin maksuihin."
   page_icon: 'ph:bold/credit-card'
   mine: 'Omat maksut'
   admin: 'Kaikki maksut'
@@ -410,6 +424,7 @@ fi:
 
 ru:
   page_title: Оплата
+  page_description: "Платёжный сценарий, который можно попробовать: выбрать способ оплаты, пройти через имитацию провайдера или оплатить вручную и отследить результат, с админ-видом всех платежей."
   page_icon: 'ph:bold/credit-card'
   mine: 'Мои платежи'
   admin: 'Все платежи'
@@ -439,6 +454,7 @@ ru:
 
 pl:
   page_title: Płatność
+  page_description: "Proces płatności do wypróbowania: wybór sposobu zapłaty, przejście przez symulowanego dostawcę lub płatność ręczna, a potem śledzenie wyniku, z widokiem administracyjnym wszystkich płatności."
   page_icon: 'ph:bold/credit-card'
   mine: 'Moje płatności'
   admin: 'Wszystkie płatności'
@@ -468,6 +484,7 @@ pl:
 
 es:
   page_title: Pago
+  page_description: "Un flujo de pago para probar: elegir cómo pagar, pasar por un proveedor simulado o pagar a mano y seguir el resultado, con una vista de administración de todos los pagos."
   page_icon: 'ph:bold/credit-card'
   mine: 'Mis pagos'
   admin: 'Todos los pagos'
@@ -497,6 +514,7 @@ es:
 
 it:
   page_title: Pagamento
+  page_description: "Un flusso di pagamento da provare: scegliere come pagare, passare da un fornitore simulato o pagare a mano, poi seguire l'esito, con una vista di amministrazione di tutti i pagamenti."
   page_icon: 'ph:bold/credit-card'
   mine: 'I miei pagamenti'
   admin: 'Tutti i pagamenti'
@@ -526,6 +544,7 @@ it:
 
 pt_BR:
   page_title: Pagamento
+  page_description: "Um fluxo de pagamento para testar: escolher como pagar, passar por um provedor simulado ou pagar manualmente e acompanhar o resultado, com uma visão administrativa de todos os pagamentos."
   page_icon: 'ph:bold/credit-card'
   mine: 'Meus pagamentos'
   admin: 'Todos os pagamentos'
@@ -555,6 +574,7 @@ pt_BR:
 
 tr:
   page_title: Ödeme
+  page_description: "Deneyebileceğiniz bir ödeme akışı: ödeme yolunu seçin, sanal bir sağlayıcıdan geçin ya da elle ödeyin, sonucu izleyin; tüm ödemeleri gösteren bir yönetici görünümüyle."
   page_icon: 'ph:bold/credit-card'
   mine: Ödemelerim
   admin: 'Tüm ödemeler'
@@ -584,6 +604,7 @@ tr:
 
 vi:
   page_title: 'Thanh toán'
+  page_description: "Quy trình thanh toán để dùng thử: chọn cách trả, đi qua nhà cung cấp mô phỏng hoặc trả thủ công, rồi theo dõi kết quả, kèm giao diện quản trị mọi khoản thanh toán."
   page_icon: 'ph:bold/credit-card'
   mine: 'Thanh toán của tôi'
   admin: 'Tất cả các khoản thanh toán'
@@ -613,6 +634,7 @@ vi:
 
 id:
   page_title: Pembayaran
+  page_description: "Alur pembayaran untuk dicoba: pilih cara bayar, lewati penyedia simulasi atau bayar manual, lalu ikuti hasilnya, dengan tampilan admin untuk semua pembayaran."
   page_icon: 'ph:bold/credit-card'
   mine: 'Pembayaran saya'
   admin: 'Semua pembayaran'
@@ -642,6 +664,7 @@ id:
 
 nl:
   page_title: Betaling
+  page_description: "Een betaalproces om uit te proberen: kies hoe te betalen, ga via een gesimuleerde provider of betaal handmatig en volg de uitkomst, met een beheerweergave van alle betalingen."
   page_icon: 'ph:bold/credit-card'
   mine: 'Mijn betalingen'
   admin: 'Alle betalingen'
