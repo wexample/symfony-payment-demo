@@ -11,10 +11,10 @@ use Wexample\SymfonyHelpers\Helper\VariableHelper;
 use Wexample\SymfonyLoader\Controller\AbstractPagesController;
 use Wexample\SymfonyPayment\Repository\PaymentRepository;
 use Wexample\SymfonyPayment\Service\PaymentService;
-use Wexample\SymfonyRemotePayment\Class\ProviderPayment;
 use Wexample\SymfonyPaymentDemo\Class\DemoPaymentProvider;
 use Wexample\SymfonyPaymentDemo\Payable\DemoItemResolver;
 use Wexample\SymfonyPaymentDemo\Traits\SymfonyPaymentDemoBundleClassTrait;
+use Wexample\SymfonyRemotePayment\Class\ProviderPayment;
 
 /**
  * Something bought, through symfony-payment-ds's pages, from a catalogue of
