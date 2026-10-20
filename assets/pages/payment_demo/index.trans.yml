@@ -1,5 +1,6 @@
 en:
   page_title: Payment
+  document_title: "Payment flow with providers and bank transfer"
   page_description: "A payment flow to try: choose how to pay, go through a simulated provider or pay by hand, then follow the outcome, with an admin view of all payments."
   page_icon: ph:bold/credit-card
   mine: My payments
