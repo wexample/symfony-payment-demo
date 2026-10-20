@@ -1,6 +1,6 @@
 # symfony-payment-demo
 
-Version: 2.1.1
+Version: 2.1.2
 
 A demo of symfony-payment-ds: an item bought, a provider pretended, every case of a payment played
 
@@ -25,13 +25,13 @@ The suite includes packages for configuration management, file handling, prompts
 
 - php: >=8.5
 - wexample/symfony-helpers: >=17.0.0
-- wexample/symfony-loader: >=23.2.0
-- wexample/symfony-design-system: >=37.0.0
+- wexample/symfony-loader: >=23.3.0
+- wexample/symfony-design-system: >=38.0.0
 - wexample/symfony-payment: >=4.0.0
 - wexample/symfony-payment-ds: >=3.0.0
 - wexample/symfony-remote-payment: >=3.0.0
-- wexample/symfony-user: >=13.0.0
-- wexample/symfony-user-demo: >=7.0.0
+- wexample/symfony-user: >=14.0.0
+- wexample/symfony-user-demo: >=8.0.0
 
 ## Versioning & Compatibility Policy
 
