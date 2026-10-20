@@ -17,7 +17,7 @@ fr:
   page_title: 'Fournisseur de démonstration'
   page_icon: 'ph:bold/storefront'
   notice:
-    title: 'Un fournisseur a prétendu'
+    title: 'Un prestataire simulé'
     body: "Cette page représente celle d'un fournisseur — un formulaire de carte, une page de banque. Choisissez ce que fait le payeur ; l'application est informée comme le ferait un webhook d'un véritable fournisseur."
   amount: 'À payer'
   reference: 'Référence du fournisseur'
@@ -32,7 +32,7 @@ zh:
   page_title: 演示提供者
   page_icon: 'ph:bold/storefront'
   notice:
-    title: 提供者伪装
+    title: '模拟的服务商'
     body: '此页面代表一个提供者的自有页面——一个卡片表单，一个银行页面。选择付款方的操作；应用程序将像真实提供者的 webhook 一样告知。'
   amount: 支付金额
   reference: 提供者的参考
@@ -47,7 +47,7 @@ ar:
   page_title: 'مقدمة العرض'
   page_icon: 'ph:bold/storefront'
   notice:
-    title: 'مقدم الخدمة تظاهر'
+    title: 'مزوّد محاكى'
     body: 'تمثل هذه الصفحة خاصية مقدم الخدمة - نموذج بطاقة، صفحة بنك. اختر ما يفعله الدافع؛ يتم إخبار التطبيق كما لو كان عبر واجهة برمجة التطبيقات لمقدم الخدمة.'
   amount: للدفع
   reference: 'مرجع مقدم الخدمة'
@@ -62,7 +62,7 @@ hi:
   page_title: 'डेमो प्रदाता'
   page_icon: 'ph:bold/storefront'
   notice:
-    title: 'एक प्रदाता ने दिखावा किया'
+    title: 'एक नकली प्रदाता'
     body: 'यह पृष्ठ एक प्रदाता का अपना है — एक कार्ड फॉर्म, एक बैंक का पृष्ठ। वह चुनें जो भुगतानकर्ता करता है; एप्लिकेशन को बताया जाता है जैसे एक असली प्रदाता का वेबहुक उसे बताएगा।'
   amount: 'भुगतान करने के लिए'
   reference: 'प्रदाता का संदर्भ'
@@ -77,7 +77,7 @@ he:
   page_title: 'ספק דמו'
   page_icon: 'ph:bold/storefront'
   notice:
-    title: 'ספק התחזה'
+    title: 'ספק מדומה'
     body: 'דף זה מייצג את הספק עצמו — טופס כרטיס, דף בנק. בחר מה עושה המשלם; האפליקציה מתעדכנת כפי ש-webhook של ספק אמיתי היה מעדכן אותה.'
   amount: לתשלום
   reference: 'הפניה של הספק'
@@ -92,7 +92,7 @@ fa:
   page_title: 'عرضه کننده دمو'
   page_icon: 'ph:bold/storefront'
   notice:
-    title: 'یک عرضه کننده خود را جا زد'
+    title: 'یک درگاه شبیه‌سازی‌شده'
     body: 'این صفحه نمایانگر صفحه خود یک عرضه کننده است — یک فرم کارت، صفحه بانکی. انتخاب کنید که پرداخت کننده چه کاری انجام دهد؛ اپلیکیشن همانطور که یک وب‌هوک واقعی از عرضه کننده به آن می‌گوید، عمل می‌کند.'
   amount: 'برای پرداخت'
   reference: 'ارجاع عرضه کننده'
@@ -107,7 +107,7 @@ ur:
   page_title: 'ڈیمو فراہم کنندہ'
   page_icon: 'ph:bold/storefront'
   notice:
-    title: 'ایک فراہم کنندہ نے جعلسازی کی'
+    title: 'ایک فرضی فراہم کنندہ'
     body: 'یہ صفحہ ایک فراہم کنندہ کے اپنے لیے ہے — ایک کارڈ فارم، ایک بینک کا صفحہ۔ ادائیگی کرنے والے کے عمل کا انتخاب کریں؛ ایپلیکیشن کو بتائیے کہ یہ ایک حقیقی فراہم کنندہ کے ویب ہک کی طرح ہے۔'
   amount: 'ادائیگی کرنا'
   reference: 'فراہم کنندہ کا حوالہ'
@@ -122,7 +122,7 @@ ja:
   page_title: デモプロバイダー
   page_icon: 'ph:bold/storefront'
   notice:
-    title: プロバイダーが偽装しています
+    title: '模擬プロバイダー'
     body: 'このページは、プロバイダー自身を表しています — カードフォーム、銀行のページです。支払者が何をするかを選択してください。アプリケーションは、実際のプロバイダーのWebhookが伝えるように指示されます。'
   amount: 支払う
   reference: プロバイダーの参照
@@ -137,7 +137,7 @@ ko:
   page_title: '데모 제공자'
   page_icon: 'ph:bold/storefront'
   notice:
-    title: '제공자가 가장했습니다'
+    title: '모의 결제 대행사'
     body: '이 페이지는 제공자의 고유한 것입니다 — 카드 양식, 은행의 페이지. 지불자가 무엇을 하는지 선택하세요; 애플리케이션은 실제 제공자의 웹후크가 알려줄 것처럼 알려집니다.'
   amount: '지불할 금액'
   reference: '제공자의 참조'
@@ -152,7 +152,7 @@ bn:
   page_title: 'ডেমো প্রোভাইডার'
   page_icon: 'ph:bold/storefront'
   notice:
-    title: 'একটি প্রোভাইডার ভান করেছে'
+    title: 'একটি সিমুলেটেড প্রোভাইডার'
     body: 'এই পৃষ্ঠা একটি প্রোভাইডারের নিজস্ব প্রতিনিধিত্ব করে — একটি কার্ড ফর্ম, একটি ব্যাংকের পৃষ্ঠা। পেমেন্টকারী কী করবে তা নির্বাচন করুন; অ্যাপ্লিকেশনটি একটি বাস্তব প্রোভাইডারের ওয়েবহুকের মতোই বলা হয়।'
   amount: 'পেমেন্ট করতে'
   reference: 'প্রোভাইডারের রেফারেন্স'
@@ -167,7 +167,7 @@ th:
   page_title: ผู้ให้บริการสาธิต
   page_icon: 'ph:bold/storefront'
   notice:
-    title: ผู้ให้บริการแกล้งทำ
+    title: 'ผู้ให้บริการจำลอง'
     body: 'หน้านี้แสดงถึงบริษัทผู้ให้บริการ — แบบฟอร์มบัตร หน้าธนาคาร เลือกสิ่งที่ผู้จ่ายทำ; แอปพลิเคชันจะได้รับข้อมูลเหมือนกับที่เว็บฮุกของผู้ให้บริการจริงจะส่งให้มัน'
   amount: ชำระเงิน
   reference: การอ้างอิงของผู้ให้บริการ
@@ -182,7 +182,7 @@ de:
   page_title: Demonstrationsanbieter
   page_icon: 'ph:bold/storefront'
   notice:
-    title: 'Ein Anbieter hat vorgetäuscht'
+    title: 'Ein simulierter Anbieter'
     body: 'Diese Seite steht für die eigene Seite eines Anbieters – ein Kartenformular, eine Bankseite. Wählen Sie, was der Zahler tut; die Anwendung wird so informiert, wie es ein echter Webhook eines Anbieters tun würde.'
   amount: 'Zu zahlen'
   reference: 'Referenz des Anbieters'
@@ -197,7 +197,7 @@ fi:
   page_title: Demo-toimittaja
   page_icon: 'ph:bold/storefront'
   notice:
-    title: 'Toimittaja esiintyi'
+    title: 'Simuloitu palveluntarjoaja'
     body: 'Tämä sivu edustaa toimittajan omaa — korttilomake, pankin sivu. Valitse, mitä maksaja tekee; sovellusta informoidaan kuten oikean toimittajan webhook kertoisi.'
   amount: Maksaa
   reference: 'Toimittajan viite'
@@ -212,7 +212,7 @@ ru:
   page_title: Демо-провайдер
   page_icon: 'ph:bold/storefront'
   notice:
-    title: 'Провайдер притворился'
+    title: 'Имитация провайдера'
     body: 'Эта страница представляет собой собственную страницу провайдера — форму карты, страницу банка. Выберите, что делает плательщик; приложение получает информацию так, как это сделал бы вебхук реального провайдера.'
   amount: 'К оплате'
   reference: 'Ссылка провайдера'
@@ -227,7 +227,7 @@ pl:
   page_title: 'Dostawca demonstracyjny'
   page_icon: 'ph:bold/storefront'
   notice:
-    title: 'Dostawca udawał'
+    title: 'Symulowany dostawca'
     body: 'Ta strona reprezentuje własny interfejs dostawcy — formularz karty, strona banku. Wybierz, co ma zrobić płacący; aplikacja jest informowana tak, jakby to zrobił webhook rzeczywistego dostawcy.'
   amount: 'Do zapłaty'
   reference: 'Referencja dostawcy'
@@ -242,7 +242,7 @@ es:
   page_title: 'Proveedor de demostración'
   page_icon: 'ph:bold/storefront'
   notice:
-    title: 'Un proveedor se hizo pasar por otro'
+    title: 'Un proveedor simulado'
     body: 'Esta página representa la propia del proveedor — un formulario de tarjeta, la página de un banco. Elige lo que hace el pagador; la aplicación recibe la información como lo haría un webhook de un proveedor real.'
   amount: 'A pagar'
   reference: 'Referencia del proveedor'
@@ -257,7 +257,7 @@ it:
   page_title: 'Fornitore demo'
   page_icon: 'ph:bold/storefront'
   notice:
-    title: 'Un fornitore ha simulato'
+    title: 'Un fornitore simulato'
     body: "Questa pagina rappresenta un fornitore — un modulo di carta, una pagina bancaria. Scegli cosa fa il pagatore; l'applicazione è informata come un webhook di un vero fornitore farebbe."
   amount: 'Da pagare'
   reference: 'Riferimento del fornitore'
@@ -272,7 +272,7 @@ pt_BR:
   page_title: 'Fornecedor de demonstração'
   page_icon: 'ph:bold/storefront'
   notice:
-    title: 'Um fornecedor fingiu'
+    title: 'Um provedor simulado'
     body: 'Esta página representa a própria do fornecedor — um formulário de cartão, uma página do banco. Escolha o que o pagador faz; a aplicação é informada como um webhook real de fornecedor faria.'
   amount: 'Para pagar'
   reference: 'Referência do fornecedor'
@@ -287,7 +287,7 @@ tr:
   page_title: 'Demo sağlayıcı'
   page_icon: 'ph:bold/storefront'
   notice:
-    title: 'Bir sağlayıcı taklit etti'
+    title: 'Simüle edilmiş bir sağlayıcı'
     body: "Bu sayfa, bir sağlayıcının kendi sayfasını temsil eder — bir kart formu, bir banka sayfası. Ödeyenin ne yapacağını seçin; uygulama, gerçek bir sağlayıcının webhook'undan nasıl bildireceğini öğrenir."
   amount: 'Ödenecek tutar'
   reference: 'Sağlayıcının referansı'
@@ -302,7 +302,7 @@ vi:
   page_title: 'Nhà cung cấp demo'
   page_icon: 'ph:bold/storefront'
   notice:
-    title: 'Một nhà cung cấp giả mạo'
+    title: 'Một nhà cung cấp mô phỏng'
     body: 'Trang này đại diện cho trang của nhà cung cấp — một mẫu thẻ, trang của ngân hàng. Chọn hành động của người thanh toán; ứng dụng được thông báo như cách mà webhook của nhà cung cấp thực sự sẽ thông báo.'
   amount: 'Để thanh toán'
   reference: 'Tham chiếu của nhà cung cấp'
@@ -317,7 +317,7 @@ id:
   page_title: 'Penyedia Demo'
   page_icon: 'ph:bold/storefront'
   notice:
-    title: 'Seorang penyedia berpura-pura'
+    title: 'Penyedia simulasi'
     body: 'Halaman ini mewakili milik penyedia — formulir kartu, halaman bank. Pilih apa yang dilakukan pembayar; aplikasi diberitahu seperti yang akan diberitahu oleh webhook penyedia yang sebenarnya.'
   amount: 'Untuk dibayar'
   reference: 'Referensi penyedia'
@@ -332,7 +332,7 @@ nl:
   page_title: 'Demo provider'
   page_icon: 'ph:bold/storefront'
   notice:
-    title: 'Een provider doet alsof'
+    title: 'Een gesimuleerde provider'
     body: 'Deze pagina staat voor de eigen pagina van een provider — een kaartformulier, een bankpagina. Kies wat de betaler doet; de applicatie krijgt informatie zoals een echte webhook van een provider dat zou geven.'
   amount: 'Te betalen'
   reference: 'Referentie van de provider'
