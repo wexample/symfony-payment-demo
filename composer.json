@@ -1,6 +1,6 @@
 {
   "name": "wexample/symfony-payment-demo",
-  "version": "2.1.12",
+  "version": "2.1.13",
   "type": "library",
   "license": "MIT",
   "description": "A demo of symfony-payment-ds: an item bought, a provider pretended, every case of a payment played",
@@ -23,12 +23,12 @@
   "require": {
     "php": ">=8.5",
     "wexample/symfony-helpers": ">=19.1.0",
-    "wexample/symfony-loader": ">=25.3.0",
-    "wexample/symfony-design-system": ">=40.0.0",
+    "wexample/symfony-loader": ">=26.0.0",
+    "wexample/symfony-design-system": ">=41.0.0",
     "wexample/symfony-payment": ">=5.0.0",
     "wexample/symfony-payment-ds": ">=3.0.5",
     "wexample/symfony-remote-payment": ">=3.0.4",
-    "wexample/symfony-user": ">=18.0.0",
+    "wexample/symfony-user": ">=19.0.0",
     "wexample/symfony-user-demo": ">=8.0.3"
   },
   "require-dev": {
